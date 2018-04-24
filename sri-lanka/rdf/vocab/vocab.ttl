@@ -10,7 +10,7 @@
 @prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
 @prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix sltsv: <http://w3id.org/sri-lanka/tourism/vocab/> .
-@prefix sltsds: <http://w3id.org/sri-lanka/tourism/cube-data-structure/> .
+@prefix sltsds: <http://w3id.org/sri-lanka/tourism/structure/> .
 @prefix interval: <http://reference.data.gov.uk/def/intervals/> . 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
 

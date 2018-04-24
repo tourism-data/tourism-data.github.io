@@ -35,7 +35,7 @@
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
   </rdf:Property>
 
-  <qb:DataStructureDefinition rdf:about="http://w3id.org/sri-lanka/tourism/cube-data-structure/arrivals-month-by-residence">
+  <qb:DataStructureDefinition rdf:about="http://w3id.org/sri-lanka/tourism/structure/arrivals-month-by-residence">
     <qb:component>
       <rdf:Description>
         <qb:dimension rdf:resource="http://w3id.org/sri-lanka/tourism/vocab/countryOfResidence"/>

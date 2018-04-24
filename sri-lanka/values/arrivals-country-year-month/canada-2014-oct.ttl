@@ -1,0 +1,17 @@
+@prefix qb: <http://purl.org/linked-data/cube#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
+@prefix prov:  <http://www.w3.org/ns/prov#> . 
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> . 
+@prefix sltsv: <http://w3id.org/sri-lanka/tourism/vocab/> .
+@prefix sltsds: <http://w3id.org/sri-lanka/tourism/structure/> . 
+@prefix sltsd: <http://w3id.org/sri-lanka/tourism/dataset/> . 
+
+
+<http://w3id.org/sri-lanka/tourism/values/arrivals-country-year-month/canada-2014-oct>  a qb:Observation; 
+ qb:dataSet sltsd:arrivals-month-by-residence; 
+ sltsv:countryOfResidence <http://dbpedia.org/resource/Canada>; 
+ sltsv:year "2014"^^xsd:gYear; 
+ sltsv:month interval:October;
+ sltsv:numberOfArrivals "1,931"^^xsd:int;
+ prov:wasDerivedFrom <http://www.sltda.lk/sites/default/files/Annual_Statistical_Report-2014.pdf> . 

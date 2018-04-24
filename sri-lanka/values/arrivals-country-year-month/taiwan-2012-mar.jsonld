@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "intervals": "http://reference.data.gov.uk/def/intervals/",
+    "countryOfResidence": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/countryOfResidence",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "qb:dataSet",
+      "@type": "@id"
+    },
+    "arrivals": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/numberOfArrivals",
+      "@type": "xsd:int"
+    },
+    "month": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/month",
+      "@type": "@id"
+    },
+    "year": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/year",
+      "@type": "xsd:gYear"
+    },
+    "source": {
+      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@id": "http://w3id.org/sri-lanka/tourism/values/arrivals-country-year-month/taiwan-2012-mar",
+  "@type": "qb:Observation",
+  "dataset": "http://w3id.org/sri-lanka/tourism/dataset/arrivals-month-by-residence",
+  "countryOfResidence": "http://dbpedia.org/resource/Taiwan",
+  "month": "interval:March",
+  "arrivals": "1,071",
+  "year": "2012",
+  "source": "http://www.sltda.lk/sites/default/files/Annual_Statistical_Report-2012_new.pdf"
+}

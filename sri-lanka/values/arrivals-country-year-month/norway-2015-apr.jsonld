@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "intervals": "http://reference.data.gov.uk/def/intervals/",
+    "countryOfResidence": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/countryOfResidence",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "qb:dataSet",
+      "@type": "@id"
+    },
+    "arrivals": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/numberOfArrivals",
+      "@type": "xsd:int"
+    },
+    "month": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/month",
+      "@type": "@id"
+    },
+    "year": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/year",
+      "@type": "xsd:gYear"
+    },
+    "source": {
+      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@id": "http://w3id.org/sri-lanka/tourism/values/arrivals-country-year-month/norway-2015-apr",
+  "@type": "qb:Observation",
+  "dataset": "http://w3id.org/sri-lanka/tourism/dataset/arrivals-month-by-residence",
+  "countryOfResidence": "http://dbpedia.org/resource/Norway",
+  "month": "interval:April",
+  "arrivals": "464",
+  "year": "2015",
+  "source": "http://www.sltda.gov.lk/sites/default/files/tourist-board-annual-report-2015.pdf"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "intervals": "http://reference.data.gov.uk/def/intervals/",
+    "countryOfResidence": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/countryOfResidence",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "qb:dataSet",
+      "@type": "@id"
+    },
+    "arrivals": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/numberOfArrivals",
+      "@type": "xsd:int"
+    },
+    "month": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/month",
+      "@type": "@id"
+    },
+    "year": {
+      "@id": "http://w3id.org/sri-lanka/tourism/vocab/year",
+      "@type": "xsd:gYear"
+    },
+    "source": {
+      "@id": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type": "@id"
+    }
+  },
+  "@id": "http://w3id.org/sri-lanka/tourism/values/arrivals-country-year-month/czech_republic-2013-feb",
+  "@type": "qb:Observation",
+  "dataset": "http://w3id.org/sri-lanka/tourism/dataset/arrivals-month-by-residence",
+  "countryOfResidence": "http://dbpedia.org/resource/Czech_Republic",
+  "month": "interval:February",
+  "arrivals": "1,581",
+  "year": "2013",
+  "source": "http://www.sltda.lk/sites/default/files/Annual_Statistical_Report-2013.pdf"
+}

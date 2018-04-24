@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:qb="http://purl.org/linked-data/cube#"
+         xmlns:vocab="http://w3id.org/sri-lanka/tourism/vocab/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <qb:Observation rdf:about="http://w3id.org/sri-lanka/tourism/values/arrivals-country-year-month/australia-2016-apr">
+    <qb:dataSet rdf:resource="http://w3id.org/sri-lanka/tourism/dataset/arrivals-month-by-residence"/>
+    <vocab:countryOfResidence rdf:resource="http://dbpedia.org/resource/Canada"/>
+    <vocab:year rdf:datatype="xsd:gYear">2013</vocab:year>
+    <vocab:month rdf:resource="interval:November"/>
+    <vocab:numberOfArrivals rdf:datatype="xsd:int">1,807</vocab:numberOfArrivals>
+    <prov:wasDerivedFrom rdf:resource="http://www.sltda.lk/sites/default/files/Annual_Statistical_Report-2013.pdf"/>
+  </qb:Observation>
+
+</rdf:RDF>
